@@ -28,7 +28,7 @@ h1 {
     background-color: burlywood;
 }
 /* mengatur ukuran font pada layar kecil */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1440px) {
 
     body {
         background-image: url("landingbg2.png");
