@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A & P</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="landing.css">
+    <style>
+      /* menambahkan background */
+      body {
+        background-image: url("landingbg.png");
+        background-size: cover; /* ukuran gambar sesuai dengan ukuran layar */
+        background-repeat: no-repeat; /* jangan mengulang gambar */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="text-center">
+      <h1>Selamat Datang para Tamu Undangan Yang Terhormat</h1>
+      <button class="btn-primary" onclick="promptName()">Here</button>
+    </div>
+    <script>
+      function promptName() {
+        var name = prompt("Isi dengan menggunakan nama panjang ^_^:");
+        if (name == null || name == "") {
+          alert("Maaf, Mohon di isi terlebih dahulu");
+} else {
+// redirect ke halaman lain setelah mengisikan nama
+window.location.href = "index.html";
+}
+}
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url("landingbg.png");
+    background-size: cover; /* ukuran gambar sesuai dengan ukuran layar */
+    background-repeat: no-repeat; /* jangan mengulang gambar */
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+h1 {
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-size: 1.5em;
+}
+
+.btn-primary {
+    background-color: white; /* warna putih */
+    border-color: white;
+    color: black; /* warna font hitam */
+}
+
+.btn-primary:hover {
+    border-color: burlywood;
+    background-color: burlywood;
+}
+/* mengatur ukuran font pada layar kecil */
+@media (max-width: 700px) {
+
+    body {
+        background-image: url("landingbg2.png");
+        background-size: cover; /* ukuran gambar sesuai dengan ukuran layar */
+        background-repeat: no-repeat; /* jangan mengulang gambar */
+      }
+
+  h1 {
+    font-size: 1.1em;
+  }
+}
