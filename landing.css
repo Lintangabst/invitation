@@ -1,9 +1,3 @@
-body {
-    background-image: url("landingbg.png");
-    background-size: cover; /* ukuran gambar sesuai dengan ukuran layar */
-    background-repeat: no-repeat; /* jangan mengulang gambar */
-  }
-
   .container {
     display: flex;
     align-items: center;
@@ -28,7 +22,7 @@ h1 {
     background-color: burlywood;
 }
 /* mengatur ukuran font pada layar kecil */
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 928px) {
 
     body {
         background-image: url("landingbg2.png");
