@@ -30,7 +30,27 @@ h1 {
         background-repeat: no-repeat; /* jangan mengulang gambar */
       }
 
+   .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
   h1 {
+    color: white;
+    text-shadow: 2px 2px #000000;
     font-size: 1.5em;
+  }
+
+  .btn-primary {
+    background-color: white; /* warna putih */
+    border-color: white;
+    color: black; /* warna font hitam */
+  }
+
+  .btn-primary:hover {
+    border-color: burlywood;
+    background-color: burlywood;
   }
 }
