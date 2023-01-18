@@ -39,7 +39,7 @@ h1 {
         background-repeat: no-repeat; /* jangan mengulang gambar */
       }
 
-  h1 {
+    body h1 {
     font-size: 1rem;
   }
 }
