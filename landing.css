@@ -42,11 +42,16 @@ h1 {
   h1 {
     font-size: 1.8rem;
   }
+      
+  .btn-primary {
+    padding: 1rem 1.5rem; /* atau ukuran yang anda inginkan */
+    font-size: 1.2rem; /* ukuran yang anda inginkan */
+  }
 
 
   @media (max-width: 600px){
     h1 {
-      font-size: 3vw;
+      font-size: 1.8rem;
     }
   }
 }
